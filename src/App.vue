@@ -1,7 +1,7 @@
 <template>
   <div id="container" v-on:mousemove="changeBgColor" v-bind:style="{ backgroundColor: this.hex}">
 
-    <h1>Color Picker</h1>
+    <h1>Colour Picker</h1>
 
     <div class="color">
       <h4>Hex: {{this.hex}}</h4>

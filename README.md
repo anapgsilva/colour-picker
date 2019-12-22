@@ -1,4 +1,4 @@
-# color-picker
+# colour-picker
 
 ## Project setup
 ```

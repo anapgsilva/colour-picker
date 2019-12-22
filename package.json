@@ -1,8 +1,11 @@
 {
-  "name": "color-picker",
+  "name": "colour-picker",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://anapgsilva.github.io/colour-picker/",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b master -d dist",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
